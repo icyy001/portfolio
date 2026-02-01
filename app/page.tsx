@@ -184,7 +184,7 @@ export default function Page() {
             </ButtonLink>
 
             <ButtonLink
-              href="www.linkedin.com/in/rayane-el-mselmi"
+              href="https://www.linkedin.com/in/rayane-el-mselmi/"
               icon={<Linkedin size={16} />}
               variant="ghost"
             >
@@ -405,7 +405,7 @@ export default function Page() {
               </ButtonLink>
 
               <ButtonLink
-                href="www.linkedin.com/in/rayane-el-mselmi"
+                href="https://www.linkedin.com/in/rayane-el-mselmi/"
                 icon={<Linkedin size={16} />}
                 variant="ghost"
               >
