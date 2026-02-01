@@ -1,5 +1,5 @@
 // app/page.tsx
-import { ArrowUpRight, Github, Mail, FileText } from "lucide-react";
+import { ArrowUpRight, Github, Mail, FileText, Linkedin } from "lucide-react";
 import Link from "next/link";
 import Image from "next/image";
 import { MotionDiv } from "./components/Motion";
@@ -181,6 +181,14 @@ export default function Page() {
               variant="ghost"
             >
               GitHub
+            </ButtonLink>
+
+            <ButtonLink
+              href="www.linkedin.com/in/rayane-el-mselmi"
+              icon={<Linkedin size={16} />}
+              variant="ghost"
+            >
+              LinkedIn
             </ButtonLink>
 
             <ButtonLink
@@ -394,6 +402,14 @@ export default function Page() {
                 variant="ghost"
               >
                 GitHub
+              </ButtonLink>
+
+              <ButtonLink
+                href="www.linkedin.com/in/rayane-el-mselmi"
+                icon={<Linkedin size={16} />}
+                variant="ghost"
+              >
+                LinkedIn
               </ButtonLink>
             </div>
           </div>
