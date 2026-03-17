@@ -108,7 +108,7 @@ const skills = [
   { label: "Languages", value: "Python, Java, JavaScript, HTML/CSS" },
   {
     label: "Backend/DB",
-    value: "Node.js, Express, REST APIs, Prisma, SQLite",
+    value: "Node.js, Express, REST APIs, PostgreSQL, Prisma",
   },
   { label: "Testing/Data", value: "Jest, Supertest, NumPy, Pandas, Matplotlib" },
   { label: "Other", value: "Git, Linux/VM workflows" },
