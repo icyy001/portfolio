@@ -17,6 +17,42 @@ export type Project = {
 
 export const projects: Project[] = [
   {
+    slug: "studysync",
+    title: "StudySync",
+    subtitle: "Full-stack task management web app",
+    tech: ["React", "Node.js", "Express", "PostgreSQL", "JWT"],
+    image: { src: "/screens/studysync.png", alt: "StudySync dashboard" },
+    highlights: [
+      "Built and deployed a full-stack task manager with authentication and protected API routes",
+      "Implemented task CRUD operations, filtering and dashboard summaries",
+      "Deployed using Vercel (frontend), Render (backend) and Neon PostgreSQL",
+    ],
+    links: [
+      { label: "Live", href: "https://study-sync-three-self.vercel.app" },
+      { label: "Repo", href: "https://github.com/icyy001/StudySync" },
+    ],
+    details: {
+      overview:
+        "StudySync is a full-stack task management application built to practise building and deploying a complete web app. It includes authentication, protected routes, task management features and a dashboard summary, with a React frontend connected to an Express and PostgreSQL backend.",
+      whatIDid: [
+        "Built the frontend in React with login, register, dashboard and task pages",
+        "Developed the backend API in Node.js and Express with JWT authentication and protected routes",
+        "Designed the PostgreSQL database structure for users and tasks",
+        "Connected the frontend, backend and database into a complete deployed system",
+      ],
+      results: [
+        "Working deployed application with authentication, task CRUD and filtering",
+        "Live frontend on Vercel, backend on Render and database on Neon PostgreSQL",
+        "A stronger full-stack portfolio project showing both frontend and backend development",
+      ],
+      nextSteps: [
+        "Improve the dashboard with charts or recent activity",
+        "Add more advanced filtering and sorting options",
+        "Refine the UI further and expand task management features",
+      ],
+    },
+  },
+  {
     slug: "eventhub-pro",
     title: "EventHub Pro",
     subtitle: "Events REST API with search & pagination",
