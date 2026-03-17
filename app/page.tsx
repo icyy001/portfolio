@@ -18,6 +18,23 @@ type Project = {
 
 const projects: Project[] = [
   {
+    slug: "studysync",
+    title: "StudySync",
+    subtitle: "Full-stack task management web app",
+    tech: ["React", "Node.js", "Express", "PostgreSQL", "JWT"],
+    highlights: [
+      "Built and deployed a full-stack task manager with authentication and protected API routes",
+      "Implemented task CRUD operations, filtering and dashboard summaries",
+      "Deployed using Vercel (frontend), Render (backend) and Neon PostgreSQL",
+    ],
+    links: [
+      { label: "Live", href: "https://study-sync-three-self.vercel.app" },
+      { label: "Repo", href: "https://github.com/icyy001/StudySync" },
+    ],
+    image: { src: "/screens/studysync.png", alt: "StudySync dashboard" },
+  },
+
+  {
     slug: "eventhub-pro",
     title: "EventHub Pro",
     subtitle: "Events REST API with search & pagination",
@@ -30,6 +47,7 @@ const projects: Project[] = [
     links: [{ label: "Repo", href: "https://github.com/icyy001/EventHub-Pro" }],
     image: { src: "/screens/eventhub-pro.png", alt: "EventHub Pro UI" },
   },
+
   {
     slug: "eventhub",
     title: "EventHub",
@@ -43,6 +61,7 @@ const projects: Project[] = [
     links: [{ label: "Repo", href: "https://github.com/icyy001/EventHub" }],
     image: { src: "/screens/eventhub.png", alt: "EventHub UI" },
   },
+
   {
     slug: "maze-benchmarking",
     title: "Maze Generation Algorithms — Benchmarking Study",
@@ -63,6 +82,7 @@ const projects: Project[] = [
       { src: "/screens/maze-method.png", alt: "Maze benchmarking methodology" },
     ],
   },
+
   {
     slug: "dynamic-event-website",
     title: "Dynamic Event Website",
